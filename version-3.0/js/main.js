@@ -184,8 +184,8 @@ function openGoods(e) {
       data.forEach(createCardGoods);
     });
 
-    getData('../db/partners.json').then(function(data) {
-      // console.log(data[0]);
+    // Изменяю надписи в section-heading при клике на карточку
+    getData('../db/partners.json').then(function(data) {      
       let cardsRestaurant = document.querySelectorAll('.card-restaurant'),
           sectionTitle = document.getElementById('section-title'),
           sectionRaiting = document.getElementById('section-raiting'),
@@ -198,19 +198,12 @@ function openGoods(e) {
         sectionPrice.textContent = data[a].price;
         sectionCategory.textContent = data[a].kitchen;
       }
-      if (cardsRestaurant[0] == restaurant) {
-        sectionHeadings(0);
-      } else if (cardsRestaurant[1] == restaurant){
-        sectionHeadings(1);
-      } else if (cardsRestaurant[2] == restaurant){
-        sectionHeadings(2);
-      } else if (cardsRestaurant[3] == restaurant){
-        sectionHeadings(3);
-      } else if (cardsRestaurant[4] == restaurant){
-        sectionHeadings(4);
-      } else if (cardsRestaurant[5] == restaurant){
-        sectionHeadings(5);
-      } 
+
+      for(let i = 0; i < cardsRestaurant.length; i++) {
+        if (cardsRestaurant[i] == restaurant) {
+          sectionHeadings(i);
+        }
+      }    
                
     });
 
