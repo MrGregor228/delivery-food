@@ -184,6 +184,47 @@ function openGoods(e) {
       data.forEach(createCardGoods);
     });
 
+    getData('../db/partners.json').then(function(data) {
+      // console.log(data[0]);
+      let cardsRestaurant = document.querySelectorAll('.card-restaurant'),
+          sectionTitle = document.getElementById('section-title'),
+          sectionRaiting = document.getElementById('section-raiting'),
+          sectionPrice = document.getElementById('section-price'),
+          sectionCategory = document.getElementById('section-category');
+      if (cardsRestaurant[0] == restaurant) {
+        sectionTitle.textContent = data[0].name;
+        sectionRaiting.textContent = data[0].stars;
+        sectionPrice.textContent = data[0].price;
+        sectionCategory.textContent = data[0].kitchen;
+      } else if (cardsRestaurant[1] == restaurant){
+        sectionTitle.textContent = data[1].name;
+        sectionRaiting.textContent = data[1].stars;
+        sectionPrice.textContent = data[1].price;
+        sectionCategory.textContent = data[1].kitchen;
+      } else if (cardsRestaurant[2] == restaurant){
+        sectionTitle.textContent = data[2].name;
+        sectionRaiting.textContent = data[3].stars;
+        sectionPrice.textContent = data[3].price;
+        sectionCategory.textContent = data[3].kitchen;
+      } else if (cardsRestaurant[3] == restaurant){
+        sectionTitle.textContent = data[3].name;
+        sectionRaiting.textContent = data[3].stars;
+        sectionPrice.textContent = data[3].price;
+        sectionCategory.textContent = data[3].kitchen;
+      } else if (cardsRestaurant[4] == restaurant){
+        sectionTitle.textContent = data[4].name;
+        sectionRaiting.textContent = data[4].stars;
+        sectionPrice.textContent = data[4].price;
+        sectionCategory.textContent = data[4].kitchen;
+      } else if (cardsRestaurant[5] == restaurant){
+        sectionTitle.textContent = data[5].name;
+        sectionRaiting.textContent = data[5].stars;
+        sectionPrice.textContent = data[5].price;
+        sectionCategory.textContent = data[5].kitchen;
+      } 
+               
+    });
+
   } else {
     toggleModalAuth();
     alertDivOnPage.classList.remove('hide');
