@@ -22,12 +22,13 @@ let login = localStorage.getItem('deliveryFood');
 
 const getData = async function (url) {
   const response = await fetch(url);
-  return await response.json();
+  
 
   if (!response.ok) {
     throw new Error(`Ошибка по адресу ${url}, статус ошибки ${response.status}!`);
   }
-
+  
+  return await response.json();
 };
 
 
