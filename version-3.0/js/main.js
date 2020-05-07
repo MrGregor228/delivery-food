@@ -191,36 +191,25 @@ function openGoods(e) {
           sectionRaiting = document.getElementById('section-raiting'),
           sectionPrice = document.getElementById('section-price'),
           sectionCategory = document.getElementById('section-category');
+      
+      function sectionHeadings(a) {
+        sectionTitle.textContent = data[a].name;
+        sectionRaiting.textContent = data[a].stars;
+        sectionPrice.textContent = data[a].price;
+        sectionCategory.textContent = data[a].kitchen;
+      }
       if (cardsRestaurant[0] == restaurant) {
-        sectionTitle.textContent = data[0].name;
-        sectionRaiting.textContent = data[0].stars;
-        sectionPrice.textContent = data[0].price;
-        sectionCategory.textContent = data[0].kitchen;
+        sectionHeadings(0);
       } else if (cardsRestaurant[1] == restaurant){
-        sectionTitle.textContent = data[1].name;
-        sectionRaiting.textContent = data[1].stars;
-        sectionPrice.textContent = data[1].price;
-        sectionCategory.textContent = data[1].kitchen;
+        sectionHeadings(1);
       } else if (cardsRestaurant[2] == restaurant){
-        sectionTitle.textContent = data[2].name;
-        sectionRaiting.textContent = data[3].stars;
-        sectionPrice.textContent = data[3].price;
-        sectionCategory.textContent = data[3].kitchen;
+        sectionHeadings(2);
       } else if (cardsRestaurant[3] == restaurant){
-        sectionTitle.textContent = data[3].name;
-        sectionRaiting.textContent = data[3].stars;
-        sectionPrice.textContent = data[3].price;
-        sectionCategory.textContent = data[3].kitchen;
+        sectionHeadings(3);
       } else if (cardsRestaurant[4] == restaurant){
-        sectionTitle.textContent = data[4].name;
-        sectionRaiting.textContent = data[4].stars;
-        sectionPrice.textContent = data[4].price;
-        sectionCategory.textContent = data[4].kitchen;
+        sectionHeadings(4);
       } else if (cardsRestaurant[5] == restaurant){
-        sectionTitle.textContent = data[5].name;
-        sectionRaiting.textContent = data[5].stars;
-        sectionPrice.textContent = data[5].price;
-        sectionCategory.textContent = data[5].kitchen;
+        sectionHeadings(5);
       } 
                
     });
