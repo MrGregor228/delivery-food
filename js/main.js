@@ -325,4 +325,13 @@ function init() {
 
   checkAuth();
 }
+
+let slider = new Swiper('.container-promo', {
+  direction: 'horizontal',
+  loop: true,
+  spaceBetween:15,
+  slidesPerView:1,
+  dynamicBullets: true,
+
+});
 init();

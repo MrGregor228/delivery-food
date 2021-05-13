@@ -22,6 +22,10 @@ button {
     margin: auto;
 }
 
+.container-promo {
+    overflow: hidden;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -252,7 +256,8 @@ button {
 .card-image {
     width: 100%;
     height: 250px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 
@@ -847,7 +852,17 @@ button {
 }
 
 .fade {
-    animation: fade .3s linear 1.5s 1 both;
+    -webkit-animation: fade .3s linear 1.5s 1 both;
+            animation: fade .3s linear 1.5s 1 both;
+}
+
+@-webkit-keyframes fade {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
 @keyframes fade {
