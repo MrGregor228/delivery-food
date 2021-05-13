@@ -185,7 +185,7 @@ function openGoods(e) {
 
     alertDivOnPage.classList.add('hide');
 
-    getData(`../db/${restaurant.dataset.products}`).then(function(data) {
+    getData(`db/${restaurant.dataset.products}`).then(function(data) {
       data.forEach(createCardGoods);
     });
 
