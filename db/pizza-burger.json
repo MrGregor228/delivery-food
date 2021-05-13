@@ -3,42 +3,42 @@
     "id": "pb01",
     "name": "Піца від Шеф-кухаря",
     "description": "Сир моцарела, помідори, салямі, бекон, сир пармезан, зелень, шинка",
-    "price": 638,
+    "price": 140,
     "image": "img/pizza-burger/pizza-dacha.jpg"
   },
   {
     "id": "pb02",
     "name": "Піца М'ясне асорті",
     "description": "Сир моцарела, фірмовий соус, помідори, куряча грудка, бекон, свинина, яловичина, зелень",
-    "price": 693,
+    "price": 150,
     "image": "img/pizza-burger/pizza-meat.jpg"
   },
   {
     "id": "pb03",
     "name": "Піца Сільська",
     "description": "Сир моцарела, піца соус, часник, сир пармезан, печериці, помідори, зелень, цибулю, курка, бекон, шинка, пепероні",
-    "price": 705,
+    "price": 120,
     "image": "img/pizza-burger/pizza-village.jpg"
   },
   {
     "id": "pb04",
     "name": "Піца Цезарь",
     "description": "Соус Цезар, куряча грудка, сир пармезан, моцарела, грінки, помідори, салат айсберг",
-    "price": 759,
+    "price": 135,
     "image": "img/pizza-burger/pizza-caesar.jpg"
   },
   {
     "id": "pb05",
     "name": "Піца Пепперони",
     "description": "Сир моцарела, піца соус, печериці, пепероні",
-    "price": 475,
+    "price": 110,
     "image": "img/pizza-burger/pizza-pepperoni.jpg"
   },
   {
     "id": "pb06",
     "name": "Піца Дачная",
     "description": "Сир моцарела, піца соус, бекон, картопля фрі, куряча грудка, помідори, пепероні, шинка, зелень",
-    "price": 649,
+    "price": 125,
     "image": "img/pizza-burger/pizza-dacha.jpg"
   }
 ]

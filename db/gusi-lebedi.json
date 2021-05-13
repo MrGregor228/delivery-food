@@ -3,63 +3,63 @@
     "id": "gl01",
     "name": "Пельмені теля з поросят",
     "description": "Справжні саморобні пельмені з простого тесту на сільських жовтках і сметані",
-    "price": 390,
+    "price": 100,
     "image": "img/gusi-lebedi/dumplings.jpg"
   },
   {
     "id": "gl02",
     "name": "Плов",
     "description": "Плов на вугіллі з правильного рису з бараниною, прянощами і овочами на курдючному жирі",
-    "price": 520,
+    "price": 75,
     "image": "img/gusi-lebedi/plov.jpg"
   },
   {
     "id": "gl03",
     "name": "Курча на рожні",
     "description": "Подається на лаваші зі свіжим томатом і огірком, з маринованою цибулею і з шашличним соусом",
-    "price": 490,
+    "price": 90,
     "image": "img/gusi-lebedi/chick.jpg"
   },
   {
     "id": "gl04",
     "name": "Суп Курочка ряба",
     "description": "Кура тушка, морква, макарони, зелень, яйце, сіль, спеції.",
-    "price": 140,
+    "price": 60,
     "image": "img/gusi-lebedi/chicken-soup.jpg"
   },
   {
     "id": "gl05",
     "name": "Відбивна з поросяти",
     "description": "Товстий шматок парної свинини з томатами і грибами під сирною скоринкою",
-    "price": 490,
+    "price": 45,
     "image": "img/gusi-lebedi/pig-chop.jpg"
   },
   {
     "id": "gl06",
     "name": "Теля в вершковому соусі",
     "description": "Теля з печерицями та цибулею обсмажується в вершково-сметанному соусі з картопляним пюре і солоними огірочками.",
-    "price": 530,
+    "price": 150,
     "image": "img/gusi-lebedi/calf-sauce.jpg"
   },
   {
     "id": "gl07",
     "name": "Судак запечений",
     "description": "Філе судака з картоплею, сільської сметаною, травами і цибулею.",
-    "price": 490,
+    "price": 120,
     "image": "img/gusi-lebedi/zander.jpg"
   },
   {
     "id": "gl08",
     "name": "Мурманські кальмари",
     "description": "Мурманські кальмари з часниковою олією",
-    "price": 420,
+    "price": 80,
     "image": "img/gusi-lebedi/squid.jpg"
   },
   {
     "id": "gl09",
     "name": "Щуча вуха на карасях",
     "description": "Навариста похідна вуха на чотирьох рибах, Лаврух, перці і цибулі з горілкою.",
-    "price": 380,
+    "price": 130,
     "image": "img/gusi-lebedi/ear.jpg"
   }
 ]

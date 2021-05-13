@@ -3,42 +3,42 @@
     "id": "fb01",
     "name": "М'ясна",
     "description": "Піца соус, сир Моцарелла, томат, куряче філе, пепероні, свинина, бекон",
-    "price": 685,
+    "price": 125,
     "image": "img/food-band/meet.jpg"
   },
   {
     "id": "fb02",
     "name": "Маргарита",
     "description": "Піца соус, сир Моцарелла, томат",
-    "price": 693,
+    "price": 90,
     "image": "img/food-band/margarita.jpg"
   },
   {
     "id": "fb03",
     "name": "Пепероні",
     "description": "Піца соус, пепероні, сир Моцарелла",
-    "price": 595,
+    "price": 110,
     "image": "img/food-band/pepperoni.jpg"
   },
   {
     "id": "fb04",
     "name": "Сім сирів",
     "description": "сир Моцарелла, сир Емменталь, соус сирний, сир горгондзола, сир чеддер, сир креметте, сир фетакса, сир пармезан",
-    "price": 785,
+    "price": 140,
     "image": "img/food-band/seven-cheeses.jpg"
   },
   {
     "id": "fb05",
     "name": "Том Ям",
     "description": "Креветки, куряче філе, соус Том Ям, сир Моцарелла, печериці, капуста брокколі, томат.",
-    "price": 695,
+    "price": 155,
     "image": "img/food-band/tom-yam.jpg"
   },
   {
     "id": "fb06",
     "name": "Норвезька",
     "description": "Вершковий соус, соус манго-чилі, сир Моцарелла, цибуля червоний, перець болгарський, скибочки лосося, салат Айсберг",
-    "price": 875,
+    "price": 145,
     "image": "img/food-band/norwegian.jpg"
   }
 ]

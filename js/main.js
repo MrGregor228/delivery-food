@@ -131,13 +131,13 @@ function createCardRestaurant({ image, kitchen, name, price, products, stars, ti
     <div class="card-text">
       <div class="card-heading">
         <h3 class="card-title">${name}</h3>
-        <span class="card-tag tag">${timeOfDelivery} мин</span>
+        <span class="card-tag tag">${timeOfDelivery} хв.</span>
       </div>  
       <div class="card-info">
         <div class="rating">
           ${stars}
         </div>
-        <div class="price">От ${price} ₽</div>
+        <div class="price">От ${price} ₴</div>
         <div class="category">${kitchen}</div>
       </div>  
     </div>
@@ -165,7 +165,7 @@ function createCardGoods({description, id, image, name, price}) {
             <span class="button-card-text">В корзину</span>
             <span class="button-cart-svg"></span>
           </button>
-          <strong class="card-price card-price-bold">${price} ₽</strong>
+          <strong class="card-price card-price-bold">${price} ₴</strong>
         </div>
       </div>
     `);
@@ -274,7 +274,7 @@ function renderCart() {
     return result + (parseFloat(item.cardPrice) * item.count);
   }, 0);
   
-  modalPriceTag.textContent = totalPrice + ' ₽';  
+  modalPriceTag.textContent = totalPrice + ' ₴';  
 }
 
 function changeCount(event) {

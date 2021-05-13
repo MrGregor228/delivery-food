@@ -3,42 +3,42 @@
     "id": "pp01",
     "name": "Піца Везувій",
     "description": "Соус томатний, сир «Моцарелла», шинка, пепероні, перець «Халапеньо», соус «Табаско», томати.",
-    "price": 545,
+    "price": 110,
     "image": "img/pizza-plus/pizza-vesuvius.jpg"
   },
   {
     "id": "pp02",
     "name": "Піца Дівич-вечір",
     "description": "Соус томатний, пісне тісто, нежирний сир, кукурудза, цибуля, маслини, гриби, помідори, болгарський перець.",
-    "price": 450,
+    "price": 105,
     "image": "img/pizza-plus/pizza-girls.jpg"
   },
   {
     "id": "pp03",
     "name": "Піца Оле-Оле",
     "description": "Соус томатний, сир «Моцарелла», черрі, маслини, зелень, майонез",
-    "price": 440,
+    "price": 90,
     "image": "img/pizza-plus/pizza-oleole.jpg"
   },
   {
     "id": "pp04",
     "name": "Піца Плюс",
     "description": "Соус томатний, сир «Моцарелла», сир «Чеддер», томати, пепероні, телятина, гриби, бекон, болгарський перець.",
-    "price": 805,
+    "price": 130,
     "image": "img/pizza-plus/pizza-plus.jpg"
   },
   {
     "id": "pp05",
     "name": "Піца Гавайська",
     "description": "Соус томатний, сир «Моцарелла», шинка, ананаси",
-    "price": 440,
+    "price": 115,
     "image": "img/pizza-plus/pizza-hawaiian.jpg"
   },
   {
     "id": "pp06",
     "name": "Піца Классика",
     "description": "Соус томатний, сир «Моцарелла», сир «Пармезан», шинка, салямі, гриби.",
-    "price": 510,
+    "price": 95,
     "image": "img/pizza-plus/pizza-classic.jpg"
   }
 ]

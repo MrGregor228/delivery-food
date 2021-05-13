@@ -3,7 +3,7 @@
     "name": "Піца Плюс",
     "time_of_delivery": 50,
     "stars": 4.5,
-    "price": 900,
+    "price": 90,
     "kitchen": "Піца",
     "image": "img/pizza-plus/preview.jpg",
     "products": "pizza-plus.json"
@@ -12,7 +12,7 @@
     "name": "Танукі",
     "time_of_delivery": 60,
     "stars": 4.3,
-    "price": 1200,
+    "price": 90,
     "kitchen": "Суші, роли",
     "image": "img/tanuki/preview.jpg",
     "products": "tanuki.json"
@@ -21,7 +21,7 @@
     "name": "FoodBand",
     "time_of_delivery": 40,
     "stars": 4.4,
-    "price": 450,
+    "price": 90,
     "kitchen": "Піца",
     "image": "img/food-band/preview.jpg",
     "products": "food-band.json"
@@ -30,7 +30,7 @@
     "name": "Палиці Качалиці",
     "time_of_delivery": 55,
     "stars": 4.1,
-    "price": 500,
+    "price": 75,
     "kitchen": "Піца",
     "image": "img/palki-skalki/preview.jpg",
     "products": "palki-skalki.json"
@@ -39,7 +39,7 @@
     "name": "Гуси Лебеді",
     "time_of_delivery": 75,
     "stars": 4.7,
-    "price": 1000,
+    "price": 45,
     "kitchen": "Українська кухня",
     "image": "img/gusi-lebedi/preview.jpg",
     "products": "gusi-lebedi.json"
@@ -48,7 +48,7 @@
     "name": "PizzaBurger",
     "time_of_delivery": 45,
     "stars": 4.6,
-    "price": 700,
+    "price": 110,
     "kitchen": "Піца",
     "image": "img/pizza-burger/preview.jpg",
     "products": "pizza-burger.json"
