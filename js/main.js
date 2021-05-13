@@ -190,7 +190,7 @@ function openGoods(e) {
     });
 
     // Изменяю надписи в section-heading при клике на карточку
-    getData('../db/partners.json').then(function(data) {      
+    getData('db/partners.json').then(function(data) {      
       let cardsRestaurant = document.querySelectorAll('.card-restaurant'),
           sectionTitle = document.getElementById('section-title'),
           sectionRaiting = document.getElementById('section-raiting'),
@@ -300,7 +300,7 @@ function changeCount(event) {
 }
 
 function init() {
-  getData('../db/partners.json').then(function (data) {
+  getData('db/partners.json').then(function (data) {
     console.log(data);
     data.forEach(createCardRestaurant);
   });
